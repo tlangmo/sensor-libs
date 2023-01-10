@@ -1,0 +1,15 @@
+//myprogram.cpp
+#include "lw_event_trace.h"
+#include "event_trace_plat.h"
+
+
+void somefunction()
+{
+   TRACE_EVENT0("SUBSYSTEM","EventName")
+   for(int i =0; i <100000); i++)
+   {
+      char* pDat = new char[50];
+      delete[] pDat;
+   }
+}
+
